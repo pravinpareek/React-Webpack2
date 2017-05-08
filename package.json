@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/webpack --progress --colors --watch",
-	"dev-server": "./node_modules/.bin/webpack-dev-server",
+    "dev-server": "./node_modules/.bin/webpack-dev-server",
     "prod": "./node_modules/.bin/webpack --progress --colors --p"
   },
   "author": "",
@@ -15,6 +15,7 @@
     "babel-loader": "^7.0.0",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.1",
     "extract-text-webpack-plugin": "^2.1.0",
     "style-loader": "^0.17.0",
